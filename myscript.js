@@ -1,5 +1,5 @@
-const message = "hi there"
-module.exports = message
+// const message = "hi there"
+// module.exports = message
 
 let counter = 0
 
