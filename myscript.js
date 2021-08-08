@@ -1,13 +1,13 @@
-// const message = 'hi there'
-// module.exports = message
+const message = "hi there"
+module.exports = message
 
-let counter = 0
+// let counter = 0
 
-module.exports = {
-  incrementCounter() {
-    counter = counter +1
-  },
-  getCounter() {
-    return counter
-  }
-}
+// module.exports = {
+//   incrementCounter() {
+//     counter = counter +1
+//   },
+//   getCounter() {
+//     return counter
+//   }
+// }
