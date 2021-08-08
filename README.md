@@ -11,7 +11,7 @@ Part 2 of the modern bootcamp course, switching from classroom style to applied 
 
 [node JS - URL](https://nodejs.org/en/)
 
-##Notes:
+## Notes:
 Link 2 JS files.  Using this creates an invisible function containing. 
 require: Function to get access to the exports from another file.
 module: Object that defines some properties + information about the current file.
