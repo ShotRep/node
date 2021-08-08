@@ -11,7 +11,7 @@ Part 2 of the modern bootcamp course, switching from classroom style to applied 
 
 [node JS - URL](https://nodejs.org/en/)
 
-## Notes:
+## Notes
 Link 2 JS files.  Using this creates an invisible function containing. 
 
 
@@ -37,6 +37,22 @@ console.log(arguments)
 The require function follows the the file path to the module.exports file.
 require cache:  The require cache is an object that stores the results of requiring in a file.
                 It adds new keys into the object of my script with a value in this case 'hi there'
+
+Require Cache:  running the require object a second time has no effect.  you can only run it once and after that initial run everything will be pulled from the require cache with results from the initial require object.
+
+## Debugging Node JS
+node inspect index.js: start up a debugger CLI and pause execution whenever a 'debugger' statement is hit.
+
+node --inspect index.js: start up a debugger instance and pause execution whenever a 'debugger' statement is hit.  access the debugger at 'chrome://inspect'
+
+node --inspect-brk index.js: start up a debugger instance and wait to executer until a debugger is connected. access the debugger at 'chrome://inspect'
+
+CLI debugger cmds
+c: continue execution until program ends or next debugger statement.
+n: run the next line of code.
+s: step in to a function.
+o: step out of the current function.
+
 
 
 
