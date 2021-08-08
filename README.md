@@ -13,12 +13,23 @@ Part 2 of the modern bootcamp course, switching from classroom style to applied 
 
 ## Notes:
 Link 2 JS files.  Using this creates an invisible function containing. 
+
+
 require: Function to get access to the exports from another file.
+
+
 module: Object that defines some properties + information about the current file.
+
+
 exports: Equivalent to 'module.exports'. We can technically export code using this, but it is
          easier to use 'module.exports' because of a little corner case. Use module.exports.
+
+
 __filename: Full path + file name of this file.
+
+
 __dirname: Full path of this file.
+
 
 -shows us what going on in the background
 console.log(arguments)
